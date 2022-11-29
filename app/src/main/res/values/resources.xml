@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="valores">
+        <item>0-17 años</item>
+        <item>18-39 años</item>
+        <item>40-59 años</item>
+        <item>Mas de 60 años</item>
+    </string-array>
+</resources>

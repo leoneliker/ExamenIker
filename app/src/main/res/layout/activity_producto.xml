@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/*Examen de Iker Iturralde Tejido*/-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/nombreTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textSize="18sp"
+        android:layout_marginTop="150dp"/>
+    <TextView
+        android:id="@+id/precioTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/añadir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/añadir" />
+    <Button
+        android:id="@+id/volver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/volver" />
+
+</LinearLayout>

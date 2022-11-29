@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ExamenIker</string>
+    <string name="presentacion">Bienvenido al formulario de satisfacción del cliente, gracias por su atención.</string>
+    <string name="spinner">Rango de edad: </string>
+    <string name="opinion">¿Te ha gustado la aplicación? </string>
+    <string name="prod">Marca hasta 3 productos que mas compras </string>
+    <string name="lacteos">lacteos</string>
+    <string name="carnes">carnes</string>
+    <string name="verduras">verduras</string>
+    <string name="frutas">frutas</string>
+    <string name="embasados">embasados</string>
+    <string name="panaderia">panaderia</string>
+    <string name="enviar">Enviar</string>
+    <string name="añadir">Añadir</string>
+    <string name="volver">Volver</string>
+    <string name="carrito">Carrito de la compra</string>
+</resources>

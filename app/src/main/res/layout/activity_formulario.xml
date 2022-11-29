@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/*Examen de Iker Iturralde Tejido*/-->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0F0F0"
+    android:padding="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/presentacion"></TextView>
+
+    <!-- Rango de edad -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/spinner"
+            android:layout_marginLeft="10dp"
+            />
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="820px"
+            android:layout_marginLeft="50px"
+
+            android:layout_height="wrap_content"
+            android:entries="@array/valores"
+            android:background="#9F9F9F"/>
+
+    </LinearLayout>
+
+    <!-- Opinion -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40px"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@android:color/transparent"
+            android:inputType="textPersonName"
+            android:text="@string/opinion"
+            android:textAlignment="center"
+            android:layout_margin="10dp"
+            />
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <RadioButton
+                android:id="@+id/op1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:buttonTint="#939393"
+                />
+            <RadioButton
+                android:id="@+id/op2"
+                android:text="2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:buttonTint="#939393"/>
+            <RadioButton
+                android:id="@+id/op3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:layout_marginLeft="20px"
+                android:buttonTint="#939393"/>
+            <RadioButton
+                android:id="@+id/op4"
+                android:text="4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:buttonTint="#939393"/>
+            <RadioButton
+                android:id="@+id/op5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:layout_marginLeft="20px"
+                android:buttonTint="#939393"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/prod"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="80px"
+        />
+    <!-- Productos -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10px">
+        <CheckBox
+            android:id="@+id/Chk1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lacteos"
+            android:checked="false" />
+        <CheckBox
+            android:id="@+id/Chk2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/carnes"
+            android:checked="false"
+            android:layout_marginLeft="5dp"/>
+        <CheckBox
+            android:id="@+id/Chk3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/verduras"
+            android:checked="false"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10px">
+        <CheckBox
+            android:id="@+id/Chk4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/panaderia"
+            android:checked="false"
+            android:layout_marginLeft="5dp"/>
+        <CheckBox
+            android:id="@+id/Chk5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/frutas"
+            android:checked="false"
+            android:layout_marginLeft="5dp"/>
+        <CheckBox
+            android:id="@+id/Chk6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/embasados"
+            android:checked="false"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+    <android.widget.Button
+        android:id="@+id/enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/enviar"
+        android:layout_marginLeft="100px" />
+
+</LinearLayout>
